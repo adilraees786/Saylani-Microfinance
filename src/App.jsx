@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";                                                                                          
-import AdminDashboard from "./pages/AdminDashboard";
+import AdminDashboard from "./Pages/AdminDashboard";
 import LoanRequest from "./pages/LoanRequest";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
