@@ -97,7 +97,7 @@ const AdminDashboard = () => {
 <Navbar/>
     
     <div className="flex flex-col items-center p-6 bg-gray-50 min-h-screen">
-      <h1 className="text-2xl font-bold mb-6">Admin Panel</h1>
+      <h1 className="text-2xl font-bold mb-6 text-blue-500">Admin Panel</h1>
 
       <div className="w-full max-w-4xl bg-white shadow-lg rounded-lg p-6">
         <div className="mb-4 flex justify-between">
