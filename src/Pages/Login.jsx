@@ -71,7 +71,7 @@ import { Link, useNavigate } from "react-router-dom";
 
         <div className="mt-4 text-center">
           <p className="text-sm text-gray-600">
-            Forgot your password? <a href="/passwordreset" className="text-blue-500 hover:underline">Reset it here</a>
+            Forgot your password? <a href="/resetpass" className="text-blue-500 hover:underline">Reset it here</a>
           </p>
           <p className="text-sm text-gray-600 mt-2">
             Don’t have an account? <a href="/register" className="text-blue-500 hover:underline">Register</a>

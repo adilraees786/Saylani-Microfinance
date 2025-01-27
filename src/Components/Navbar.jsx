@@ -52,56 +52,9 @@ const Navbar = () => {
 
 export default Navbar;
 
-// import { Link } from "react-router-dom";
-// import { useState } from "react";
-// import { Menu, X } from "lucide-react";
 
-// const Navbar = () => {
-//   const [menuOpen, setMenuOpen] = useState(false);
 
-//   return (
-//     <header className="bg-gradient-to-r from-gray-500 to-green-500 text-white py-4 shadow-md">
-//       <div className="container mx-auto flex justify-between items-center px-4">
-//         <Link to="/">
-//           <h1 className="text-3xl font-bold">Saylani Microfinance</h1>
-//         </Link>
-//         <button
-//           className="lg:hidden focus:outline-none"
-//           onClick={() => setMenuOpen(!menuOpen)}
-//         >
-//           {menuOpen ? <X size={28} /> : <Menu size={28} />}
-//         </button>
-//         <nav
-//           className={`lg:flex gap-4 ${menuOpen ? "block" : "hidden"} lg:block absolute lg:static top-16 left-0 w-full lg:w-auto bg-gradient-to-r from-gray-400 to-green-500 lg:bg-transparent z-10`}
-//         >
-//           <Link
-//             to="/register"
-//             className="block lg:inline-block px-2 py-1 bg-white text-blue-600 font-semibold rounded-lg shadow hover:bg-gray-100 mx-2 my-1 lg:my-0"
-//           >
-//             Register
-//           </Link>
-//           <Link
-//             to="/login"
-//             className="block lg:inline-block px-2 py-1 bg-white text-blue-600 font-semibold rounded-lg shadow hover:bg-gray-100 mx-2 my-1 lg:my-0"
-//           >
-//             Login
-//           </Link>
-//           <Link
-//             to="/loanrequest"
-//             className="block lg:inline-block px-2 py-1 bg-white text-blue-600 font-semibold rounded-lg shadow hover:bg-gray-100 mx-2 my-1 lg:my-0"
-//           >
-//             Loan Request
-//           </Link>
-//           <Link
-//             to="/admindashboard"
-//             className="block lg:inline-block px-2 py-1 bg-white text-blue-600 font-semibold rounded-lg shadow hover:bg-gray-100 mx-2 my-1 lg:my-0"
-//           >
-//             Admin Dashboard
-//           </Link>
-//         </nav>
-//       </div>
-//     </header>
-//   );
-// };
 
-// export default Navbar;
+
+
+
