@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const passwordreset = () => {
+const Resetpass = () => {
   const [email, setEmail] = useState("");
   const [newPassword, setNewPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
@@ -82,4 +82,4 @@ const passwordreset = () => {
   );
 };
 
-export default passwordreset;
+export default Resetpass;

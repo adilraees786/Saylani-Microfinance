@@ -4,10 +4,10 @@ import LoanRequest from "./Pages/LoanRequest"
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import LoanCalculator from "./Components/LoanCalculator";
-import Passwordreset from "./pages/Passwordreset"; 
 import LandingPage from "./Pages/LandingPage";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
+import Resetpass from "./Pages/Resetpass";
 
 
 
@@ -22,7 +22,7 @@ function App() {
         <Route path="/loanrequest" element={<LoanRequest/>} />
         <Route path="/navbar" element={<Navbar/>} />
         <Route path="loanCalculator/" element={<LoanCalculator/>} />
-        <Route path="passwordreset/" element={<Passwordreset/>} />
+        <Route path="resetpass/" element={<Resetpass/>} />
 
       </Routes>
      
