@@ -34,7 +34,7 @@ const LoanCalculator = () => {
   };
 
   return (
-    <div className="flex flex-col items-center p-6 bg-gray-50 min-h-screen">
+    <div className="flex flex-col items-center p-2 bg-gray-50 min-h-screen">
       <h1 className="text-2xl font-bold mb-2  text-blue-800">Loan Calculator</h1>
 
       <div className="w-full max-w-md bg-white shadow-lg rounded-lg p-6">
